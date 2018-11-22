@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Echarts</title>
+    <script type="text/javascript" src="echarts.js">
+
+        /*
+        * Licensed to the Apache Software Foundation (ASF) under one
+        * or more contributor license agreements.  See the NOTICE file
+        * distributed with this work for additional information
+        * regarding copyright ownership.  The ASF licenses this file
+        * to you under the Apache License, Version 2.0 (the
+        * "License"); you may not use this file except in compliance
+        * with the License.  You may obtain a copy of the License at
+        *
+        *   http://www.apache.org/licenses/LICENSE-2.0
+        *
+        * Unless required by applicable law or agreed to in writing,
+        * software distributed under the License is distributed on an
+        * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+        * KIND, either express or implied.  See the License for the
+        * specific language governing permissions and limitations
+        * under the License.
+        */
+
+
+    </script>
+</head>
+<body>
+<div id="fe82df6346d6439b89f83df934c19373" style="width:800px;height:400px;"></div>
+<script type="text/javascript">
+
+    var myChart_fe82df6346d6439b89f83df934c19373 = echarts.init(document.getElementById('fe82df6346d6439b89f83df934c19373'), 'light', {renderer: 'canvas'});
+
+    var option_fe82df6346d6439b89f83df934c19373 = {
+        "title": [
+            {
+                "text": "\u6211\u7684\u7b2c\u4e00\u4e2a\u56fe\u8868",
+                "subtext": "\u8fd9\u91cc\u662f\u526f\u6807\u9898",
+                "left": "auto",
+                "top": "auto",
+                "textStyle": {
+                    "fontSize": 18
+                },
+                "subtextStyle": {
+                    "fontSize": 12
+                }
+            }
+        ],
+        "toolbox": {
+            "show": true,
+            "orient": "vertical",
+            "left": "95%",
+            "top": "center",
+            "feature": {
+                "saveAsImage": {
+                    "show": true,
+                    "title": "save as image"
+                },
+                "restore": {
+                    "show": true,
+                    "title": "restore"
+                },
+                "dataView": {
+                    "show": true,
+                    "title": "data view"
+                }
+            }
+        },
+        "series_id": 4056268,
+        "tooltip": {
+            "trigger": "item",
+            "triggerOn": "mousemove|click",
+            "axisPointer": {
+                "type": "line"
+            },
+            "textStyle": {
+                "fontSize": 14
+            },
+            "backgroundColor": "rgba(50,50,50,0.7)",
+            "borderColor": "#333",
+            "borderWidth": 0
+        },
+        "series": [
+            {
+                "type": "bar",
+                "name": "\u670d\u88c5",
+                "data": [
+                    5,
+                    20,
+                    36,
+                    10,
+                    75,
+                    90
+                ],
+                "barCategoryGap": "20%",
+                "label": {
+                    "normal": {
+                        "show": false,
+                        "position": "top",
+                        "textStyle": {
+                            "fontSize": 12
+                        }
+                    },
+                    "emphasis": {
+                        "show": true,
+                        "textStyle": {
+                            "fontSize": 12
+                        }
+                    }
+                },
+                "markPoint": {
+                    "data": []
+                },
+                "markLine": {
+                    "data": []
+                },
+                "seriesId": 4056268
+            }
+        ],
+        "legend": [
+            {
+                "data": [
+                    "\u670d\u88c5"
+                ],
+                "selectedMode": "multiple",
+                "show": true,
+                "left": "center",
+                "top": "top",
+                "orient": "horizontal",
+                "textStyle": {
+                    "fontSize": 12
+                }
+            }
+        ],
+        "animation": true,
+        "xAxis": [
+            {
+                "show": true,
+                "nameLocation": "middle",
+                "nameGap": 25,
+                "nameTextStyle": {
+                    "fontSize": 14
+                },
+                "axisTick": {
+                    "alignWithLabel": false
+                },
+                "inverse": false,
+                "boundaryGap": true,
+                "type": "category",
+                "splitLine": {
+                    "show": false
+                },
+                "axisLine": {
+                    "lineStyle": {
+                        "width": 1
+                    }
+                },
+                "axisLabel": {
+                    "interval": "auto",
+                    "rotate": 0,
+                    "margin": 8,
+                    "textStyle": {
+                        "fontSize": 12
+                    }
+                },
+                "data": [
+                    "\u886c\u886b",
+                    "\u7f8a\u6bdb\u886b",
+                    "\u96ea\u7eba\u886b",
+                    "\u88e4\u5b50",
+                    "\u9ad8\u8ddf\u978b",
+                    "\u889c\u5b50"
+                ]
+            }
+        ],
+        "yAxis": [
+            {
+                "show": true,
+                "nameLocation": "middle",
+                "nameGap": 25,
+                "nameTextStyle": {
+                    "fontSize": 14
+                },
+                "axisTick": {
+                    "alignWithLabel": false
+                },
+                "inverse": false,
+                "boundaryGap": true,
+                "type": "value",
+                "splitLine": {
+                    "show": true
+                },
+                "axisLine": {
+                    "lineStyle": {
+                        "width": 1
+                    }
+                },
+                "axisLabel": {
+                    "interval": "auto",
+                    "formatter": "{value} ",
+                    "rotate": 0,
+                    "margin": 8,
+                    "textStyle": {
+                        "fontSize": 12
+                    }
+                }
+            }
+        ],
+        "color": [
+            "#c23531",
+            "#2f4554",
+            "#61a0a8",
+            "#d48265",
+            "#749f83",
+            "#ca8622",
+            "#bda29a",
+            "#6e7074",
+            "#546570",
+            "#c4ccd3",
+            "#f05b72",
+            "#ef5b9c",
+            "#f47920",
+            "#905a3d",
+            "#fab27b",
+            "#2a5caa",
+            "#444693",
+            "#726930",
+            "#b2d235",
+            "#6d8346",
+            "#ac6767",
+            "#1d953f",
+            "#6950a1",
+            "#918597",
+            "#f6f5ec"
+        ]
+    };
+    myChart_fe82df6346d6439b89f83df934c19373.setOption(option_fe82df6346d6439b89f83df934c19373);
+
+</script>
+</body>
+</html>
